@@ -29,7 +29,7 @@ namespace CoffeeShopApp
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<CoffeeShopDbContext>(option =>
-                option.UseSqlServer(@"Data Soure=(localdb)\MSSQLLocalDB;Initial Catalog=CoffeeShopDb;"));
+                option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CoffeeShopDb;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,7 +7,7 @@ namespace CoffeeShopApp.Models
 {
     public class Menu
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Image { get; set; }
         public ICollection<SubMenu> SubMenus { get; set; }
